@@ -1,0 +1,42 @@
+.footer{
+    width: 100%;
+    /* background-color: black; */
+    height: 300px;
+    border-top: 1px solid gainsboro;
+    font-family: NotoSansCJKkr-Light;
+    font-size: small;
+}
+footer p{
+    color: black;
+}
+.verticalmenu{
+    list-style-type: none;
+}
+.verticalmenu li{
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+    color: black;
+    
+}
+.description{
+    padding: 20px;
+}
+.footer-title{
+    font-family: NotoSansCJKkr-Medium;
+    font-size: medium;
+}
+@media all and (min-width: 40em) {
+    .description{
+        padding: 20px;
+        padding-left: 100px;
+
+    }
+}
+@media all and (min-width: 70em) {
+    .description{
+        padding: 20px;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
