@@ -6,6 +6,9 @@ import "./header.css"
 function Header() {
   return (
     <div className="header">
+      <head>
+        <meta name="theme-color" content="#3E4FD5" />
+      </head>
       <Link to="/" className="NB">
         <img src={logo} alt="NBlogo-nobg" className="logo" />
 
@@ -25,7 +28,7 @@ function Header() {
           </li>
           <li>
             <Link className="link-header" to="/screens/member">
-              Member
+              Members
             </Link>
           </li>
         </ul>

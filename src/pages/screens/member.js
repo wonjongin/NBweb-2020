@@ -22,8 +22,12 @@ function Member() {
         <ul>
           <li>김찬웅</li>
           <li>김현우</li>
-          <li>박순형</li>
-          <li>원종인</li>
+          <li>
+            박순형 <a href="https://github.com/tnsgud"> [Github]</a>
+          </li>
+          <li>
+            원종인 <a href="https://github.com/wonjongin"> [Github]</a>
+          </li>
         </ul>
 
         <h2>하드웨어 개발부</h2>

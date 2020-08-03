@@ -23,6 +23,16 @@ function Web() {
           </div>
         </a>
         <a
+          href="http://nanobyte.iptime.org/webapps/blindbox"
+          className="product-link"
+        >
+          <br />
+          <div>
+            <h2>숫자 뽑기</h2>
+            <p>선택하기가 어려울 때 숫자를 뽑아봐요</p>
+          </div>
+        </a>
+        <a
           href="http://nanobyte.iptime.org/calc/index.php?id=%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98"
           className="product-link"
         >
