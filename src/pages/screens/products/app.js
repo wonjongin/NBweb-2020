@@ -43,6 +43,13 @@ function App() {
             <p className="plan">개발중...</p>
           </div>
         </a>
+        <br />
+        <a href="http://nanobyte.iptime.org/store-m/" className="product-link">
+          <div>
+            <h2 className="plan">초이스 머신</h2>
+            <p className="plan">개발중...</p>
+          </div>
+        </a>
       </div>
       <Footer />
     </div>
