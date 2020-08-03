@@ -69,4 +69,4 @@ yarn-error.log
 .yarn-integrity
 
 #fonts files
-src/fonts/
+#src/fonts/
