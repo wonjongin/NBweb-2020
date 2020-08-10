@@ -41,24 +41,28 @@ function Home() {
             </div>
           </div>
           <div className="background-main1">
-            <div className="main global-margin">
-              <div className="text">
-                <h2>Products</h2>
-                <p>NanoByte의 여러 제품을 만나보세요!!</p>
-                <p>
-                  여러가지 유용한 앱과 웹은 물론 재미있는 게임까지 준비되어 있고
-                </p>
-                <p>여러가지 멋진 일러스트와 3D 디자인까지 있어요!</p>
+            <div className="global-margin">
+              <div className="main">
+                <div className="text">
+                  <h2>Products</h2>
+                  <p>NanoByte의 여러 제품을 만나보세요!!</p>
+                  <p>
+                    여러가지 유용한 앱과 웹은 물론 재미있는 게임까지 준비되어
+                    있고
+                  </p>
+                  <p>여러가지 멋진 일러스트와 3D 디자인까지 있어요!</p>
+                </div>
+
+                <div className="mainbutton-grid">
+                  <Product imgname={AppIcon} toPath="app" />
+                  <Product imgname={GameIcon} toPath="game" />
+                  <Product imgname={WebIcon} toPath="web" />
+                  <Product imgname={DesignIcon} toPath="design" />
+                  {/* <Product imgname={HardwareIcon} toPath="hardware"/> */}
+                  <Product imgname={AboutIcon} toPath="about/about" />
+                </div>
               </div>
 
-              <div className="mainbutton-grid">
-                <Product imgname={AppIcon} toPath="app" />
-                <Product imgname={GameIcon} toPath="game" />
-                <Product imgname={WebIcon} toPath="web" />
-                <Product imgname={DesignIcon} toPath="design" />
-                {/* <Product imgname={HardwareIcon} toPath="hardware"/> */}
-                <Product imgname={AboutIcon} toPath="about/about" />
-              </div>
               {/* <div id="mainbutton">
               <Link className="link" to="/screens/introduction">
                 <span className="button">소개보기</span>
