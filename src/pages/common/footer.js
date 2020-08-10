@@ -3,6 +3,16 @@ import logo from "../../img/NBlogo-nobg-white.png"
 import { Link } from "gatsby"
 import "./footer.css"
 
+function PublishedDate() {
+  // let today = new Date()
+  // let year = today.getFullYear()
+  // let month = today.getMonth() + 1
+  // let date = today.getDate()
+  // let minute = today.getMinutes()
+  // return year + "년 " + month + "월 " + date + "일"
+  return "2020년 08월 10일"
+}
+
 function Footer() {
   return (
     <div>
@@ -18,12 +28,14 @@ function Footer() {
               about...
             </Link>
           </p>
-          <p>Ver. 0.0.3</p>
+          <p>Ver. 0.0.5</p>
           <a href="mailto:teamforapplication@gmail.com">
             <p>Email. teamforapplication@gmail.com</p>
           </a>
-          <p>Published date. 2020-08-09</p>
-          <p>Copyright ⓒ 2020. Won Jongin All rights reserved.</p>
+          <p>
+            Published date. <PublishedDate />
+          </p>
+          <p>Copyright ⓒ 2020. Won Jongin. All rights reserved.</p>
         </div>
       </footer>
     </div>
