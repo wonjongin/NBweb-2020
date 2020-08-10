@@ -235,4 +235,7 @@ video{
     a:hover{color: #d3d9ff;}
     .button{
       background-color: #87afdd;}
+      .background-main1{
+          background-color: DARKSLATEGRAY;
+      }
 }
