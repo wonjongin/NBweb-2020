@@ -70,3 +70,5 @@ yarn-error.log
 
 #fonts files
 #src/fonts/
+
+publish.sh

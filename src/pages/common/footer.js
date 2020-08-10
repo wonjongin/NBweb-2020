@@ -13,11 +13,16 @@ function Footer() {
         </ul> */}
         <div className="description">
           <p className="footer-title">NanoByte</p>
-          <p>Ver. 0.0.1</p>
+          <p>
+            <Link to="/screens/about/about" className="footer-link">
+              about...
+            </Link>
+          </p>
+          <p>Ver. 0.0.3</p>
           <a href="mailto:teamforapplication@gmail.com">
             <p>Email. teamforapplication@gmail.com</p>
           </a>
-          <p>Published date. 2020-08-03</p>
+          <p>Published date. 2020-08-09</p>
           <p>Copyright ⓒ 2020. Won Jongin All rights reserved.</p>
         </div>
       </footer>
