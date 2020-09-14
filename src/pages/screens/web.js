@@ -4,6 +4,7 @@ import "../../styles/global.css"
 import Header from "../common/header"
 import Footer from "../common/footer"
 import ProductTitle from "../common/productTitle"
+import List from "./list"
 
 function Web() {
   return (
@@ -11,33 +12,21 @@ function Web() {
       <Header />
       <div className="global-margin">
         <ProductTitle title="Web Apps" />
-        <a href="http://nanobyte.iptime.org:32768" className="product-link">
-          <br />
-          <div>
-            <h2>NB WIKI</h2>
-            <p>나노바이트의 위키사이트!</p>
-          </div>
-        </a>
-        <a
-          href="http://nanobyte.iptime.org/webapps/blindbox"
-          className="product-link"
-        >
-          <br />
-          <div>
-            <h2>숫자 뽑기</h2>
-            <p>선택하기가 어려울 때 숫자를 뽑아봐요</p>
-          </div>
-        </a>
-        <a
-          href="http://nanobyte.iptime.org/calc/index.php?id=%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98"
-          className="product-link"
-        >
-          <br />
-          <div>
-            <h2>삼각함수 계산기</h2>
-            <p>삼각함수를 계산하세요</p>
-          </div>
-        </a>
+        <List
+          title="NB WIKI"
+          desc="나노바이트의 위키사이트!"
+          link="http://nanobyte.iptime.org:32768"
+        />
+        <List
+          title="숫자 뽑기"
+          desc="선택하기가 어려울 때 숫자를 뽑아봐요"
+          link="http://nanobyte.iptime.org/webapps/blindbox"
+        />
+        <List
+          title="삼각함수 계산기"
+          desc="삼각함수를 계산하세요"
+          link="http://nanobyte.iptime.org/calc/index.php?id=%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98"
+        />
 
         <br />
         <a href="http://nanobyte.iptime.org/store-pc/" className="product-link">

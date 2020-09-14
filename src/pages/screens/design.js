@@ -4,6 +4,7 @@ import "../../styles/global.css"
 import Header from "../common/header"
 import Footer from "../common/footer"
 import ProductTitle from "../common/productTitle"
+import List from "./list"
 
 function Design() {
   return (
@@ -11,20 +12,17 @@ function Design() {
       <Header />
       <div className="global-margin">
         <ProductTitle title="Designs" />
-        <a href="http://nanobyte.iptime.org/404/" className="product-link">
-          <br />
-          <div>
-            <h2>3D 디자인</h2>
-            <p>다양한 3D디자인을 만나보세요</p>
-          </div>
-        </a>
-        <a href="http://nanobyte.iptime.org/404" className="product-link">
-          <br />
-          <div>
-            <h2>일러스트 디자인</h2>
-            <p>다양한 일러스트를 만나보아요</p>
-          </div>
-        </a>
+
+        <List
+          title="3D 디자인"
+          desc="다양한 3D디자인을 만나보세요"
+          link="http://nanobyte.iptime.org/404/"
+        />
+        <List
+          title="일러스트 디자인"
+          desc="다양한 일러스트를 만나보아요"
+          link="http://nanobyte.iptime.org/404/"
+        />
         <br />
         <a href="http://nanobyte.iptime.org/store-m/" className="product-link">
           <div>
