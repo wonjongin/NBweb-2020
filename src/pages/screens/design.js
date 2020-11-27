@@ -16,7 +16,7 @@ function Design() {
         <List
           title="3D 디자인"
           desc="다양한 3D디자인을 만나보세요"
-          link="http://nanobyte.iptime.org/404/"
+          link="/main/screens/products/designs/designs/"
         />
         <List
           title="일러스트 디자인"

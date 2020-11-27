@@ -10,7 +10,7 @@ function PublishedDate() {
   // let date = today.getDate()
   // let minute = today.getMinutes()
   // return year + "년 " + month + "월 " + date + "일"
-  return "2020년 09월 14일"
+  return "2020년 11월 27일"
 }
 
 function Footer() {
@@ -28,7 +28,7 @@ function Footer() {
               about...
             </Link>
           </p>
-          <p>Ver. 0.0.6</p>
+          <p>Ver. 0.0.7</p>
           <a href="mailto:teamforapplication@gmail.com">
             <p>Email. teamforapplication@gmail.com</p>
           </a>
